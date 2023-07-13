@@ -1,0 +1,323 @@
+.title-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    width: 7rem;
+    color: #495057;
+    font-size: 3rem;
+    margin-right: 1.5rem;
+  }
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
+    color: #343a40;
+  }
+
+  /* rtl:end:remove */
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-secondary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-success {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-info {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-warning {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-danger {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-light {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-dark {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-black {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-body {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .subheading {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+
+  h1, .h1 {
+    font-size: calc(1.725rem + 5.7vw);
+  }
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 6rem;
+    }
+  }
+  
+  h2, .h2 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+  @media (min-width: 1200px) {
+    h2, .h2 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  h3, .h3 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  @media (min-width: 1200px) {
+    h3, .h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  @media (min-width: 1200px) {
+    h4, .h4 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  h5, .h5 {
+    font-size: 1.25rem;
+  }
+  
+  h6, .h6 {
+    font-size: 1rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #21bdec;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+    justify-content: center;
+  }
+
+  main{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+  }
+
+  section{
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+  }
+
+  section h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: sans-serif;
+  }
+
+  .no-parallax{
+    background-color: #FFF;
+    z-index: 999;
+    flex-direction: column;
+  }
+
+  .parallax{
+    
+    flex-direction: column;
+  }
+
+  .no-parallax h1{
+    margin-top: 15px;
+    font-size: 5rem;
+  }
+
+  .no-parallax h2{
+    margin-top: 15px;
+    font-size: 3rem;
+  }
+
+  /* .parallax h1{
+    width: 60%;
+    font-size: 2rem;
+  } */
+
+  .parallax::after{
+    content: " " !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateZ(-1px) scale(1.5) !important;
+    z-index: -1 !important;
+  }
+
+  .bg::after{
+    background: url("./assets/fondo-parallax2.jpg");
+    background-size: cover;
+  }
+
+  
+  #presentacion{
+    background: url("./assets/fondo-parallax2.jpg");
+    background-size: cover;
+  }
+
+  .chart-container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+
+  .barchart{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    padding-right: 10%;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100% !important;
+    justify-content: center;
+    align-items: end;
+    /* margin-top: 1%; */
+  }
+
+
+  .ico{
+    width: 3.3rem;
+    height: 3.3rem;
+    margin: 12px;
+  }
+
+  .icons .ico{
+    margin: 2.5% 0 !important;
+  }
+
+  .contenedor{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .contenedorAll{
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+  }
+
+  .contenedor2{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .avatar img {
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: solid 3px rgba(18, 104, 202, 0.94);
+    transition: 0.3s;
+  }
+
+  .contenedor3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+  }
+
+  .historial, .experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+  }
+
+  .historial {
+    border-right: 1px solid #495057;
+    
+  }
